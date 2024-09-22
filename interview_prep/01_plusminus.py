@@ -1,16 +1,3 @@
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-#
-# Complete the 'plusMinus' function below.
-#
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
 
 def plusMinus(arr):
     # Write your code here
@@ -26,10 +13,7 @@ def plusMinus(arr):
     print(f"{neg_ratio:.6f}")
     print(f"{zer_ratio:.6f}")
      
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
+n = 6
+arr = [-4, 3, -9, 0, 4, 1]
+print('====== TEST ======')
+print(plusMinus(arr))

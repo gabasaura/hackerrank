@@ -17,6 +17,7 @@ def timeConversion(s):
     return f"{hh:02}:{mm}:{ss}"  # Devuelve la hora en formato 24 horas, :02 devuelve 2 digitos
 
 # Ejemplo de uso
+print('====== TEST ======')
 converted_time = timeConversion(s)
 print(converted_time)  # Imprime '19:05:45' para '07:05:45PM'
 
